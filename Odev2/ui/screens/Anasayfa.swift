@@ -19,9 +19,9 @@ class Anasayfa: UIViewController {
         toDosTableView.delegate = self
         toDosTableView.dataSource = self
         
-        let t1 = ToDos(id: 1, name: "Yapılacak 1")
-        let t2 = ToDos(id: 2, name: "Yapılacak 2")
-        let t3 = ToDos(id: 3, name: "Yapılacak 3")
+        let t1 = ToDos(id: 1, name: "Ödev 2'yi Yap")
+        let t2 = ToDos(id: 2, name: "Bootcamp'i Başarıyla Tamamla")
+        let t3 = ToDos(id: 3, name: "İş Bul")
         toDoListesi.append(t1)
         toDoListesi.append(t2)
         toDoListesi.append(t3)
